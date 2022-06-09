@@ -12,10 +12,11 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body role="main">
+<body>
+  <main>
 <header class="header">
   <img class="header__logo" src="images/logo.svg"></img>
-  <nav role="navigation" class="header-nav">
+  <nav class="header-nav">
     <ul class="header-nav__list">
       <li class="header-nav__list-item"><a class="header-nav__link" href="/">  Home</a></li>
       <li class="header-nav__list-item"><a class="header-nav__link" href="/"></a>About</li>
@@ -26,7 +27,7 @@
   </nav>
   <button class="header__toggle-btn header__toggle-btn--hamburger" id="htb"></button>
   <button class="btn btn--header">Request Invite</button>
-  <section class="modal modal--inactive" id="modal">
+  <section class="modal modal--inactive">
     <nav class="modal-nav">
       <ul class="modal-nav__list">
         <li class="modal-nav__item"><a class="modal-nav__link" href="/">Home</a></li>
@@ -109,7 +110,8 @@
     </div>
   </article>
 </section>
-<footer role="contentinfo">
+</main>
+<footer>
 <div class="footer__logo-socials">
   <img src="images/logo.svg" class="footer__logo">
   <ul class="footer__social">
