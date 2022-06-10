@@ -2,8 +2,11 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <meta name="description" content="Easybank: Challenge by Frontend Mentor"> 
+  <meta name="description" content="Easybank: Challenge by Frontend Mentor">
+  <meta name="keywords" content="HTML, CSS, Vanilla JS">
+  <meta name="author" content="Itir Emiroglu">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Frontend Mentor | Easybank landing page</title>
@@ -14,6 +17,7 @@
   </style>
 </head>
 <body>
+  <div class="header-div">
 <header class="header">
   <img class="header__logo" src="images/logo.svg"></img>
   <nav class="header-nav">
@@ -39,7 +43,8 @@
     </nav>
   </section>
 </header>
-  <main>
+  </div>
+  <div class="hero-div">
 <section class="hero">
   <img class="hero_img" src="images/image-mockups.png">
   <section class="hero_text">
@@ -48,6 +53,8 @@
     <button class="btn">Request Invite</button>
   </section>
 </section>
+  </div>
+  <div class="features-div">
 <section class="features">
   <div class="feature__content">
     <h1 class="features__header">Why choose Easybank?</h1>
@@ -76,8 +83,10 @@
     </article>
   </div>
 </section>
+</div>
+<div class="articles-div">
 <section class="articles">
-  <h1 class="articles__header" id="frontend-mentor-easybank-landing-page">Latest Articles</h1>
+  <h1 class="articles__header">Latest Articles</h1>
   <article class="articles-card">
     <img src="images/image-currency.jpg" class="articles-card__img">
     <div class="articles-card__content">
@@ -111,7 +120,7 @@
     </div>
   </article>
 </section>
-</main>
+</div>
 <footer class="footer">
 <div class="footer__logo-socials">
   <img src="images/logo.svg" class="footer__logo">
