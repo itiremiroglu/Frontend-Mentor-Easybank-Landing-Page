@@ -8,13 +8,15 @@
   <title>Frontend Mentor | Easybank landing page</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution{font-size: 11px; text-align: center;}
-    .attribution a{color: hsl(228, 45%, 44%);}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 <header class="header">
+  <div class="container">
   <img class="header__logo" src="images/logo.svg"></img>
+  </div>
   <nav class="header-nav">
     <ul class="header-nav__list">
       <li class="header-nav__list-item"><a class="header-nav__link" href="/">  Home</a></li>
@@ -26,7 +28,7 @@
   </nav>
   <button class="header__toggle-btn header__toggle-btn--hamburger" id="htb"></button>
   <button class="btn btn--header">Request Invite</button>
-  <section class="modal modal--inactive">
+  <section class="modal modal--inactive" id="modal">
     <nav class="modal-nav">
       <ul class="modal-nav__list">
         <li class="modal-nav__item"><a class="modal-nav__link" href="/">Home</a></li>
@@ -109,8 +111,7 @@
     </div>
   </article>
 </section>
-</div>
-<footer class="footer">
+<footer>
 <div class="footer__logo-socials">
   <img src="images/logo.svg" class="footer__logo">
   <ul class="footer__social">
